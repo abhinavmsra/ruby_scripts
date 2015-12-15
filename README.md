@@ -1,4 +1,4 @@
-**Basics of Ruby Scripts**
+#Basics of Ruby Scripts
 
 Ruby started as an object-oriented scripting language. As it's popularity
 grew as a general-purpose programming language, the scripting aspect was
