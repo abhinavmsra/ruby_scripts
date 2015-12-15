@@ -10,38 +10,30 @@ In this tutorial, I will present the basics of Ruby Scripting.
    of a Unix shell script.
 
 2. On the command line, navigate to the directory holding the file. Then
-grant the execute permissions to the file.
-
-`chmod +x ruby_script.rb`
-
-With that, we are good to go.
+   grant the execute permissions to the file.
+   ```
+    chmod +x ruby_script.rb
+    ```
+   With that, we are good to go.
 
 3. Open the file in a text editor. The first thing we ought to do is instruct
- the parent shell to use ruby interpreter to execute our script. This is what
-  `shebang` are for.
-
-  So, the first line of our script should always be
-
-  ```ruby
+   the parent shell to use ruby interpreter to execute our script. This is what
+  `shebang` are for. So, the first line of our script should always be
+  ```shell
   #! /usr/bin/env ruby
   ```
 
 4. With the interpreter assigned, we can now fill our scripts with ruby
-statements.
-
-Let's have the traditional `Hello World` script. For that, your script should
- look like this:
-
- ```ruby
+statements. Let's have the traditional `Hello World` script. For that, your
+script should look like this:
+```ruby
  #! /usr/bin/env ruby
  # my first hello world script
-
  puts 'Hello World'
  ```
 
 5. Now just run the script. Open the terminal and run the following:
-
-```
+```shell
 ./ruby_script.rb
 ```
 
